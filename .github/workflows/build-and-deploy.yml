@@ -1,7 +1,7 @@
 name: Create image and Deploy
 
 env:
-  IMAGE_TAG: web-karma:2.5.2
+  IMAGE_TAG: karma:2.5.2
 
 on:
   push:
