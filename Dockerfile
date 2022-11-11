@@ -1,6 +1,6 @@
 FROM shipilev/openjdk-shenandoah:8 
 
-ENV KARMA_VER=v2.5.2 \
+ENV KARMA_VER=v2.5.3 \
     JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+UseContainerSupport -XX:MaxRAMFraction=1 -XX:+UseShenandoahGC -XX:ShenandoahGCHeuristics=compact -XX:+UseStringDeduplication -XX:+ExitOnOutOfMemoryError -Dlog4j2.formatMsgNoLookups=true" \ 
     USER=user \
     USER_HOME=/home/user \
